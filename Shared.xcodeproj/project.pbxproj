@@ -10,9 +10,9 @@
 		E9D179861AF3826A004A652B /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179851AF3826A004A652B /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D1798C1AF3826A004A652B /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D179801AF3826A004A652B /* Shared.framework */; };
 		E9D179931AF3826A004A652B /* SharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179921AF3826A004A652B /* SharedTests.m */; };
-		E9D1799E1AF3828A004A652B /* HSPushDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */; };
+		E9D1799E1AF3828A004A652B /* HSPushDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D1799F1AF3828A004A652B /* HSPushDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1799D1AF3828A004A652B /* HSPushDefinitions.m */; };
-		E9D179A21AF382A4004A652B /* HSWatchKitDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179A01AF382A4004A652B /* HSWatchKitDefinitions.h */; };
+		E9D179A21AF382A4004A652B /* HSWatchKitDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179A01AF382A4004A652B /* HSWatchKitDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D179A31AF382A4004A652B /* HSWatchKitDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179A11AF382A4004A652B /* HSWatchKitDefinitions.m */; };
 /* End PBXBuildFile section */
 
@@ -414,6 +414,7 @@
 				E9D179981AF3826A004A652B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D179991AF3826A004A652B /* Build configuration list for PBXNativeTarget "SharedTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				E9D1799B1AF3826A004A652B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
