@@ -8,31 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E9D179861AF3826A004A652B /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179851AF3826A004A652B /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9D1798C1AF3826A004A652B /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D179801AF3826A004A652B /* Shared.framework */; };
-		E9D179931AF3826A004A652B /* SharedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179921AF3826A004A652B /* SharedTests.m */; };
 		E9D1799E1AF3828A004A652B /* HSPushDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D1799F1AF3828A004A652B /* HSPushDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1799D1AF3828A004A652B /* HSPushDefinitions.m */; };
 		E9D179A21AF382A4004A652B /* HSWatchKitDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179A01AF382A4004A652B /* HSWatchKitDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D179A31AF382A4004A652B /* HSWatchKitDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179A11AF382A4004A652B /* HSWatchKitDefinitions.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E9D1798D1AF3826A004A652B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9D179771AF3826A004A652B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9D1797F1AF3826A004A652B;
-			remoteInfo = Shared;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E9D179801AF3826A004A652B /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D179841AF3826A004A652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D179851AF3826A004A652B /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
-		E9D1798B1AF3826A004A652B /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D179911AF3826A004A652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D179921AF3826A004A652B /* SharedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedTests.m; sourceTree = "<group>"; };
 		E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPushDefinitions.h; sourceTree = "<group>"; };
 		E9D1799D1AF3828A004A652B /* HSPushDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSPushDefinitions.m; sourceTree = "<group>"; };
 		E9D179A01AF382A4004A652B /* HSWatchKitDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWatchKitDefinitions.h; sourceTree = "<group>"; };
@@ -47,14 +32,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D179881AF3826A004A652B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D1798C1AF3826A004A652B /* Shared.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				E9D179821AF3826A004A652B /* Shared */,
-				E9D1798F1AF3826A004A652B /* SharedTests */,
 				E9D179811AF3826A004A652B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				E9D179801AF3826A004A652B /* Shared.framework */,
-				E9D1798B1AF3826A004A652B /* SharedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,23 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				E9D179841AF3826A004A652B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E9D1798F1AF3826A004A652B /* SharedTests */ = {
-			isa = PBXGroup;
-			children = (
-				E9D179921AF3826A004A652B /* SharedTests.m */,
-				E9D179901AF3826A004A652B /* Supporting Files */,
-			);
-			path = SharedTests;
-			sourceTree = "<group>";
-		};
-		E9D179901AF3826A004A652B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E9D179911AF3826A004A652B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,24 +106,6 @@
 			productReference = E9D179801AF3826A004A652B /* Shared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E9D1798A1AF3826A004A652B /* SharedTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D179991AF3826A004A652B /* Build configuration list for PBXNativeTarget "SharedTests" */;
-			buildPhases = (
-				E9D179871AF3826A004A652B /* Sources */,
-				E9D179881AF3826A004A652B /* Frameworks */,
-				E9D179891AF3826A004A652B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9D1798E1AF3826A004A652B /* PBXTargetDependency */,
-			);
-			name = SharedTests;
-			productName = SharedTests;
-			productReference = E9D1798B1AF3826A004A652B /* SharedTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,9 +116,6 @@
 				ORGANIZATIONNAME = Highstreet;
 				TargetAttributes = {
 					E9D1797F1AF3826A004A652B = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					E9D1798A1AF3826A004A652B = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -196,20 +133,12 @@
 			projectRoot = "";
 			targets = (
 				E9D1797F1AF3826A004A652B /* Shared */,
-				E9D1798A1AF3826A004A652B /* SharedTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E9D1797E1AF3826A004A652B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D179891AF3826A004A652B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,23 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D179871AF3826A004A652B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D179931AF3826A004A652B /* SharedTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E9D1798E1AF3826A004A652B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9D1797F1AF3826A004A652B /* Shared */;
-			targetProxy = E9D1798D1AF3826A004A652B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E9D179941AF3826A004A652B /* Debug */ = {
@@ -367,36 +280,6 @@
 			};
 			name = Release;
 		};
-		E9D1799A1AF3826A004A652B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SharedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E9D1799B1AF3826A004A652B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SharedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,15 +297,6 @@
 			buildConfigurations = (
 				E9D179971AF3826A004A652B /* Debug */,
 				E9D179981AF3826A004A652B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9D179991AF3826A004A652B /* Build configuration list for PBXNativeTarget "SharedTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D1799A1AF3826A004A652B /* Debug */,
-				E9D1799B1AF3826A004A652B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
