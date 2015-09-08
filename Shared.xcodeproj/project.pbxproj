@@ -6,16 +6,8 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		E9D179861AF3826A004A652B /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179851AF3826A004A652B /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9D1799E1AF3828A004A652B /* HSPushDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9D1799F1AF3828A004A652B /* HSPushDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1799D1AF3828A004A652B /* HSPushDefinitions.m */; };
-		E9D179A21AF382A4004A652B /* HSWatchKitDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179A01AF382A4004A652B /* HSWatchKitDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9D179A31AF382A4004A652B /* HSWatchKitDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179A11AF382A4004A652B /* HSWatchKitDefinitions.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		E9D179801AF3826A004A652B /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E932EBE91B9ED3620072D6A7 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D179841AF3826A004A652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D179851AF3826A004A652B /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
 		E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPushDefinitions.h; sourceTree = "<group>"; };
@@ -25,7 +17,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9D1797C1AF3826A004A652B /* Frameworks */ = {
+		E932EBE51B9ED3620072D6A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,7 +38,7 @@
 		E9D179811AF3826A004A652B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9D179801AF3826A004A652B /* Shared.framework */,
+				E932EBE91B9ED3620072D6A7 /* Shared.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,27 +67,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E9D1797D1AF3826A004A652B /* Headers */ = {
+		E932EBE61B9ED3620072D6A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D179A21AF382A4004A652B /* HSWatchKitDefinitions.h in Headers */,
-				E9D1799E1AF3828A004A652B /* HSPushDefinitions.h in Headers */,
-				E9D179861AF3826A004A652B /* Shared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E9D1797F1AF3826A004A652B /* Shared */ = {
+		E932EBE81B9ED3620072D6A7 /* Shared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9D179961AF3826A004A652B /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildConfigurationList = E932EBEE1B9ED3630072D6A7 /* Build configuration list for PBXNativeTarget "Shared" */;
 			buildPhases = (
-				E9D1797B1AF3826A004A652B /* Sources */,
-				E9D1797C1AF3826A004A652B /* Frameworks */,
-				E9D1797D1AF3826A004A652B /* Headers */,
-				E9D1797E1AF3826A004A652B /* Resources */,
+				E932EBE41B9ED3620072D6A7 /* Sources */,
+				E932EBE51B9ED3620072D6A7 /* Frameworks */,
+				E932EBE61B9ED3620072D6A7 /* Headers */,
+				E932EBE71B9ED3620072D6A7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,7 +92,7 @@
 			);
 			name = Shared;
 			productName = Shared;
-			productReference = E9D179801AF3826A004A652B /* Shared.framework */;
+			productReference = E932EBE91B9ED3620072D6A7 /* Shared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -115,8 +104,8 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Highstreet;
 				TargetAttributes = {
-					E9D1797F1AF3826A004A652B = {
-						CreatedOnToolsVersion = 6.3.1;
+					E932EBE81B9ED3620072D6A7 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -132,13 +121,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9D1797F1AF3826A004A652B /* Shared */,
+				E932EBE81B9ED3620072D6A7 /* Shared */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E9D1797E1AF3826A004A652B /* Resources */ = {
+		E932EBE71B9ED3620072D6A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -148,18 +137,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E9D1797B1AF3826A004A652B /* Sources */ = {
+		E932EBE41B9ED3620072D6A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D179A31AF382A4004A652B /* HSWatchKitDefinitions.m in Sources */,
-				E9D1799F1AF3828A004A652B /* HSPushDefinitions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E932EBEF1B9ED3630072D6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Shared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.highstreet.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E932EBF01B9ED3630072D6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Shared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.highstreet.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		E9D179941AF3826A004A652B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -249,59 +276,22 @@
 			};
 			name = Release;
 		};
-		E9D179971AF3826A004A652B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Shared/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.highstreet.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E9D179981AF3826A004A652B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Shared/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.highstreet.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E932EBEE1B9ED3630072D6A7 /* Build configuration list for PBXNativeTarget "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E932EBEF1B9ED3630072D6A7 /* Debug */,
+				E932EBF01B9ED3630072D6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E9D1797A1AF3826A004A652B /* Build configuration list for PBXProject "Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9D179941AF3826A004A652B /* Debug */,
 				E9D179951AF3826A004A652B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9D179961AF3826A004A652B /* Build configuration list for PBXNativeTarget "Shared" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D179971AF3826A004A652B /* Debug */,
-				E9D179981AF3826A004A652B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
