@@ -10,6 +10,8 @@
 		E997F9C31B9ED67600BFE900 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = E997F9C21B9ED67600BFE900 /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E997F9C81B9ED68100BFE900 /* HSWatchKitDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179A11AF382A4004A652B /* HSWatchKitDefinitions.m */; settings = {ASSET_TAGS = (); }; };
 		E997F9C91B9ED68100BFE900 /* HSPushDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1799D1AF3828A004A652B /* HSPushDefinitions.m */; settings = {ASSET_TAGS = (); }; };
+		E997F9D51B9ED94300BFE900 /* HSWatchKitDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D179A01AF382A4004A652B /* HSWatchKitDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E997F9D61B9ED94300BFE900 /* HSPushDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E997F9C31B9ED67600BFE900 /* Shared.h in Headers */,
+				E997F9D51B9ED94300BFE900 /* HSWatchKitDefinitions.h in Headers */,
+				E997F9D61B9ED94300BFE900 /* HSPushDefinitions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				E997F9C71B9ED67600BFE900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D1797A1AF3826A004A652B /* Build configuration list for PBXProject "Shared" */ = {
 			isa = XCConfigurationList;
