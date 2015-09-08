@@ -6,8 +6,16 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E997F9C31B9ED67600BFE900 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = E997F9C21B9ED67600BFE900 /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E997F9C81B9ED68100BFE900 /* HSWatchKitDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D179A11AF382A4004A652B /* HSWatchKitDefinitions.m */; settings = {ASSET_TAGS = (); }; };
+		E997F9C91B9ED68100BFE900 /* HSPushDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1799D1AF3828A004A652B /* HSPushDefinitions.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		E932EBE91B9ED3620072D6A7 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E997F9C01B9ED67600BFE900 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E997F9C21B9ED67600BFE900 /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		E997F9C41B9ED67600BFE900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D179841AF3826A004A652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D179851AF3826A004A652B /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
 		E9D1799C1AF3828A004A652B /* HSPushDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSPushDefinitions.h; sourceTree = "<group>"; };
@@ -17,7 +25,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E932EBE51B9ED3620072D6A7 /* Frameworks */ = {
+		E997F9BC1B9ED67600BFE900 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,10 +35,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E997F9C11B9ED67600BFE900 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E997F9C21B9ED67600BFE900 /* Shared.h */,
+				E997F9C41B9ED67600BFE900 /* Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		E9D179761AF3826A004A652B = {
 			isa = PBXGroup;
 			children = (
 				E9D179821AF3826A004A652B /* Shared */,
+				E997F9C11B9ED67600BFE900 /* Shared */,
 				E9D179811AF3826A004A652B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +56,7 @@
 		E9D179811AF3826A004A652B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E932EBE91B9ED3620072D6A7 /* Shared.framework */,
+				E997F9C01B9ED67600BFE900 /* Shared.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,24 +85,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E932EBE61B9ED3620072D6A7 /* Headers */ = {
+		E997F9BD1B9ED67600BFE900 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E997F9C31B9ED67600BFE900 /* Shared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E932EBE81B9ED3620072D6A7 /* Shared */ = {
+		E997F9BF1B9ED67600BFE900 /* Shared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E932EBEE1B9ED3630072D6A7 /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildConfigurationList = E997F9C51B9ED67600BFE900 /* Build configuration list for PBXNativeTarget "Shared" */;
 			buildPhases = (
-				E932EBE41B9ED3620072D6A7 /* Sources */,
-				E932EBE51B9ED3620072D6A7 /* Frameworks */,
-				E932EBE61B9ED3620072D6A7 /* Headers */,
-				E932EBE71B9ED3620072D6A7 /* Resources */,
+				E997F9BB1B9ED67600BFE900 /* Sources */,
+				E997F9BC1B9ED67600BFE900 /* Frameworks */,
+				E997F9BD1B9ED67600BFE900 /* Headers */,
+				E997F9BE1B9ED67600BFE900 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,7 +111,7 @@
 			);
 			name = Shared;
 			productName = Shared;
-			productReference = E932EBE91B9ED3620072D6A7 /* Shared.framework */;
+			productReference = E997F9C01B9ED67600BFE900 /* Shared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +123,7 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Highstreet;
 				TargetAttributes = {
-					E932EBE81B9ED3620072D6A7 = {
+					E997F9BF1B9ED67600BFE900 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -121,13 +140,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E932EBE81B9ED3620072D6A7 /* Shared */,
+				E997F9BF1B9ED67600BFE900 /* Shared */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E932EBE71B9ED3620072D6A7 /* Resources */ = {
+		E997F9BE1B9ED67600BFE900 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,17 +156,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E932EBE41B9ED3620072D6A7 /* Sources */ = {
+		E997F9BB1B9ED67600BFE900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E997F9C81B9ED68100BFE900 /* HSWatchKitDefinitions.m in Sources */,
+				E997F9C91B9ED68100BFE900 /* HSPushDefinitions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E932EBEF1B9ED3630072D6A7 /* Debug */ = {
+		E997F9C61B9ED67600BFE900 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -162,13 +183,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		E932EBF01B9ED3630072D6A7 /* Release */ = {
+		E997F9C71B9ED67600BFE900 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -279,11 +299,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E932EBEE1B9ED3630072D6A7 /* Build configuration list for PBXNativeTarget "Shared" */ = {
+		E997F9C51B9ED67600BFE900 /* Build configuration list for PBXNativeTarget "Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E932EBEF1B9ED3630072D6A7 /* Debug */,
-				E932EBF01B9ED3630072D6A7 /* Release */,
+				E997F9C61B9ED67600BFE900 /* Debug */,
+				E997F9C71B9ED67600BFE900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
