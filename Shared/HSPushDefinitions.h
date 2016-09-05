@@ -10,6 +10,9 @@ extern NSString * const HSPushCategoryPromotion;
 extern NSString * const HSPushCategoryLookbook;
 
 extern NSString * const HSPushActionFavorite;
+extern NSString * const HSPushActionViewLookbook;
+extern NSString * const HSPushActionViewCategory;
+extern NSString * const HSPushActionViewProdudct;
 
 extern NSString *const HSPushPayloadHighstreetNamespaceKey;
 
