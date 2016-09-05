@@ -11,7 +11,7 @@ NSString * const HSPushCategoryLookbook = @"lookbook";
 NSString * const HSPushActionFavorite = @"favorite";
 NSString * const HSPushActionViewLookbook = @"view-lookbook";
 NSString * const HSPushActionViewCategory = @"view-category";
-NSString * const HSPushActionViewProdudct = @"view-product";
+NSString * const HSPushActionViewProduct = @"view-product";
 
 NSString *const HSPushPayloadHighstreetNamespaceKey = @"hs";
 
